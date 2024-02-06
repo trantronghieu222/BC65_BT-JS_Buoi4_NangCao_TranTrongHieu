@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <style>
+      section {
+        min-height: 100vh;
+      }
+      h1 {
+        padding: 20px 0;
+        text-align: center;
+      }
+      .result {
+        width: 100%;
+        height: 50px;
+        padding-left: 20px;
+        display: grid;
+        align-items: center;
+        border: 1px solid green;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Bài 1 -->
+    <section>
+      <div class="container">
+        <h1>Bài tập 1</h1>
+        <div class="form-group">
+          <label for="day">Nhập ngày</label>
+          <input
+            type="text"
+            name="day"
+            id="day"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="month">Nhập tháng</label>
+          <input
+            type="text"
+            name="month"
+            id="month"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="year">Nhập năm</label>
+          <input
+            type="text"
+            name="year"
+            id="year"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <button type="button" class="btn btn-primary" id="dayBefore">
+          Ngày trước
+        </button>
+        <button type="button" class="btn btn-primary" id="dayAfter">
+          Ngày sau
+        </button>
+        <div id="result__bai1" class="result"></div>
+      </div>
+    </section>
+
+    <!-- Bài 2 -->
+    <section>
+      <div class="container">
+        <h1>Bài tập 2</h1>
+        <div class="form-group">
+          <label for="thang">Nhập tháng</label>
+          <input
+            type="text"
+            name="thang"
+            id="thang"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <div class="form-group">
+          <label for="nam">Nhập năm</label>
+          <input
+            type="text"
+            name="nam"
+            id="nam"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <button type="button" class="btn btn-primary" id="btnBai2">
+          Click Here
+        </button>
+        <div id="result__bai2" class="result"></div>
+      </div>
+    </section>
+
+    <!-- Bài 3 -->
+    <section>
+      <div class="container">
+        <h1>Bài tập 3</h1>
+        <div class="form-group">
+          <label for="number">Nhập số nguyên có 3 chữ số</label>
+          <input
+            type="text"
+            name="number"
+            id="number"
+            class="form-control"
+            placeholder=""
+            aria-describedby="helpId"
+          />
+        </div>
+        <button type="button" class="btn btn-primary" id="btnBai3">
+          Click here
+        </button>
+        <div id="result__bai3" class="result"></div>
+      </div>
+    </section>
+
+    <!-- Bài 4 -->
+    <section>
+      <div class="container">
+        <h1>Bài tập 4</h1>
+        <h3>Tọa độ sinh viên 1</h3>
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for=""></label>
+              <input
+                type="text"
+                name=""
+                id="x1"
+                class="form-control"
+                placeholder="Nhập X"
+                aria-describedby="helpId"
+              />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <label for=""></label>
+              <input
+                type="text"
+                name=""
+                id="y1"
+                class="form-control"
+                placeholder="Nhập Y"
+                aria-describedby="helpId"
+              />
+            </div>
+          </div>
+        </div>
+        <h3>Tọa độ sinh viên 2</h3>
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for=""></label>
+              <input
+                type="text"
+                name=""
+                id="x2"
+                class="form-control"
+                placeholder="Nhập X"
+                aria-describedby="helpId"
+              />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <label for=""></label>
+              <input
+                type="text"
+                name=""
+                id="y2"
+                class="form-control"
+                placeholder="Nhập Y"
+                aria-describedby="helpId"
+              />
+            </div>
+          </div>
+        </div>
+        <h3>Tọa độ sinh viên 3</h3>
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for=""></label>
+              <input
+                type="text"
+                name=""
+                id="x3"
+                class="form-control"
+                placeholder="Nhập X"
+                aria-describedby="helpId"
+              />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <label for=""></label>
+              <input
+                type="text"
+                name=""
+                id="y3"
+                class="form-control"
+                placeholder="Nhập Y"
+                aria-describedby="helpId"
+              />
+            </div>
+          </div>
+        </div>
+        <h3>Tọa độ trường</h3>
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for=""></label>
+              <input
+                type="text"
+                name=""
+                id="xt"
+                class="form-control"
+                placeholder="Nhập X"
+                aria-describedby="helpId"
+              />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <label for=""></label>
+              <input
+                type="text"
+                name=""
+                id="yt"
+                class="form-control"
+                placeholder="Nhập Y"
+                aria-describedby="helpId"
+              />
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary" id="btnBai4">Sinh viên xa trường nhất</button>
+        <div id="result__bai4" class="result"></div>
+      </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script JS -->
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
