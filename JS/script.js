@@ -158,7 +158,7 @@ document.getElementById("dayAfter").onclick = function () {
                 month = 1;
                 year += 1;
             }
-            break
+            break;
         case 4:
         case 6:
         case 9:
